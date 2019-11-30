@@ -1,0 +1,36 @@
+<html>
+<head>
+<script type="text/javascript" src="https://rawcdn.githack.com/umar83/player891/bb6ff4362eb801cfdb2c32e59cc1d02d83e769e9/jwplayer.js"></script>
+             <script>jwplayer.key="8tDNv8+jONqSNxm1FcyM5QINXD2BnLjNhpqUcsE2AzQ=";</script>
+</head>
+<body>
+<div id="myElement">Loading the player...</div>
+<script type="text/javascript">
+	var playerInstance = jwplayer("myElement")
+playerInstance.setup({
+playlist: [{
+   image: " https://fanart.tv/fanart/movies/9533/moviethumb/red-dragon-522d41d16142d.jpg",
+tracks: [{ 
+            file: "", 
+            label: "indonesia",
+            kind: "captions",
+            
+        },{ 
+            file: "https://raw.githubusercontent.com/9drive/sub3/master/15.Rounds.2019.srt", 
+            kind: "captions",
+            label: "englis"
+            "default": true 
+        }],
+"sources":[{"type": "video/mp4", "label": "360p", "file": "https://lh3.googleusercontent.com/Inw1a3O8RpyZakXHZO8EcUcX_swrk4wL3TCItLxdQ1LyBD3M9iQRE2w_RkFzR7TEdvCUdECuYqgE_UJMpilf2cQKm33ludoVHBkHqIX2ENT-6-kKHL7Vs9comfJ9Ob_EgxU220U_=m18"},{"type": "video/mp4", "label": "720p", "file": "https://lh3.googleusercontent.com/Inw1a3O8RpyZakXHZO8EcUcX_swrk4wL3TCItLxdQ1LyBD3M9iQRE2w_RkFzR7TEdvCUdECuYqgE_UJMpilf2cQKm33ludoVHBkHqIX2ENT-6-kKHL7Vs9comfJ9Ob_EgxU220U_=m22"}]			}],
+			autostart: "false",
+			allowfullscreen: "true",
+			width: "100%",
+			aspectratio: "16:9",
+			stretching: "uniform",
+			preload: "metadata",
+			livetimeout: "30",
+			viewability: "true",
+		});
+	</script>
+</body>
+</html>
